@@ -1,0 +1,34 @@
+*{ /* selects all the elements */
+    font-family: monospace;
+}
+
+/* font: inherit - inherits the parent's font  */ 
+
+body{
+    font-size: 32px;
+}
+
+p{
+    color: peru;
+}
+
+.gray { /* class */
+    color: gray;
+}
+
+#second { /* id */
+    font-style: italic;
+}
+
+h1, h2{ /* h1 and h2 both */
+    color: blue !important
+}
+
+h1 h2 { /* h2 element that is inside h1 element */
+    color: orange;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}

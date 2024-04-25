@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+}
+
+.columns{
+    margin-top: 0;
+    /* column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid black;
+    column-gap: 3rem;
+}
+.columns h2{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    break-inside: avoid;
+    /* break-before: column; remove the element in only one column */
+}
+
+.quote{
+    margin-top: 1rem;
+    font-size: 2rem;
+    column-span: all;
+    text-align: center;
+
+}
+
+.nowrap{
+    white-space: nowrap;
+}

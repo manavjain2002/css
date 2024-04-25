@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: rgb(42, 52, 33);
+    display: flex; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    flex: 0 0 30%;
+}
+
+.navbar img{
+    margin: 0.5rem 0rem;
+    height: 4rem;
+    width: 7rem;
+}
+
+.navLinks{
+    flex: 0 0 70%;
+    text-align: right;
+    padding-right: 2rem;
+    font-size: larger;
+}
+
+.navLinks a{
+    margin: 0rem;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 1rem;
+    border:2px solid transparent
+}
+
+.navLinks a:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.menubar{
+    font-size: xx-large;
+    color: white;
+    padding: 0.5rem;
+    border:2px solid transparent;
+    display: none;
+}
+
+.menubar:hover{
+    border: 2px solid white;
+}
+
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(234, 240, 228);
+    padding: 50px;
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 50px;
+    border: 3px solid darkgreen;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    /* height: 70vh; */
+}
+
+.introImg{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.introPara{
+    padding: 0px;
+    margin: 80px 50px 50px 50px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introPara .heading{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.introPara .content{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.introImg,
+.introPara {
+  flex: 1; /* Make both items flexible to take up available space */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.team{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(234, 240, 228);
+}
+
+.section-title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.section-subtitle {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.team-content{
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 30%;
+    flex-basis: content;
+}
+
+.teamMember{
+    width: auto;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid darkgreen;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.teamMember img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 90%;
+    border-radius: 50px;
+}
+
+.movie-ratings {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+}
+
+.user-rating{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.rating{
+    min-width: 25%;
+    max-width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.checked {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+p.rater{
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.contact-main{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 50%;
+    gap: 50px;
+    border: 2px solid darkgreen;
+    padding: 50px;
+}
+
+.contact-img{
+    width: 40%;
+    /* width: 100%; */
+}
+
+.contact-img img{
+    width: 100%;
+    height: 500px;
+}
+
+.contact-form{
+    width: 40%;
+
+}
+

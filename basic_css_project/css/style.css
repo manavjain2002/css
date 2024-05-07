@@ -207,27 +207,69 @@ p.rater{
 .contact-main{
     margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex: 0 0 50%;
-    gap: 50px;
     border: 2px solid darkgreen;
     padding: 50px;
+    background-color: white;
 }
 
-.contact-img{
-    width: 40%;
-    /* width: 100%; */
-}
-
-.contact-img img{
-    width: 100%;
-    height: 500px;
-}
 
 .contact-form{
-    width: 40%;
+    width: 50%;
+    border: 2px solid darkgreen;
+    text-align: center;
+    background-color: rgb(234, 240, 228);
 
 }
 
+.contact-title {
+    letter-spacing: normal;
+    color: darkcyan;
+    margin-bottom: 20px;
+}
+
+.contact-subtitle {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    padding-right: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-field {
+    margin-top: 40px;
+}
+.form-field label {
+    font-size: 25px;
+    width: 20%;
+}
+.form-field input {
+    /* width: 30vw; */
+    height: 50px;
+    padding: 5px;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
+
+.form-field textarea {
+    width: 27vw;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    width: 10vw;
+    text-align: center;
+    margin: 20px 0px 20px 0px ;
+    padding: 15px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
